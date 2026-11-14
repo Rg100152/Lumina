@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumina — Hotel Management System</title>
+  <meta name="description" content="Lumina is a front-end hotel management system for reservations, rooms, guests and billing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230e3b31'/%3E%3Ctext x='32' y='45' font-family='Georgia' font-size='36' fill='%23c8a24a' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation"></aside>
+    <div class="scrim" id="scrim" data-action="close-nav"></div>
+    <div class="main">
+      <header class="topbar" id="topbar"></header>
+      <main class="view" id="view" aria-live="polite"></main>
+    </div>
+  </div>
+
+  <div id="modal-root"></div>
+  <div class="toast-root" id="toast-root" aria-live="polite"></div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/seed.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/views.js"></script>
+  <script src="assets/js/modals.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
